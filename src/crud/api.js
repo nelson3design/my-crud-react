@@ -25,4 +25,8 @@ export const updateName= async  (id,nome,email,contato)=>{
 
 export const searchName= async  (nome)=>{
     return  await axios.get('https://nelsoncrud.herokuapp.com/data?q='+ nome)
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d9a4b005729472a5c9c06d2808d475db4ff5efd8
