@@ -32,7 +32,7 @@ const Crud =() =>{
       const handleSearch= async (e)=>{
         e.preventDefault()
          return await axios 
-         .get(`http://localhost:5000/data?q=${value}`)
+         .get(`https://nelsoncrud.herokuapp.com/data?q=${value}`)
          .then((response)=>{
           setUsers(response.data)
           
