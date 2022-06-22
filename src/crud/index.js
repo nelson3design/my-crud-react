@@ -20,7 +20,7 @@ const Crud =() =>{
         loadNames()
           
          
-      },[users])
+      },[])
 
       const loadNames =()=> getNames().then((response)=> {
         setUsers(response.data)
